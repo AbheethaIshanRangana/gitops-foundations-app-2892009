@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:16.0.2
 ARG JAR_FILE
 COPY target/${JAR_FILE} app.jar
 EXPOSE 8080
