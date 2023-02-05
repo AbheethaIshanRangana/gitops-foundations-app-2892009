@@ -1,4 +1,4 @@
-FROM openjdk:18.0.1-slim-bullseye
+FROM openjdk:jdk-slim
 ARG JAR_FILE
 COPY target/${JAR_FILE} app.jar
 EXPOSE 8080
